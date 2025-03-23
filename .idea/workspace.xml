@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83d8c73f-1015-4458-a943-ac1aff31ebee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/data_ingestion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/data_transformation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/model_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pipeline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pipeline/predict_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pipeline/train_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,5 +67,16 @@
       <updated>1742730628816</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/logger.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
