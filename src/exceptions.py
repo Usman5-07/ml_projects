@@ -1,6 +1,5 @@
 import sys
-import logging
-import logger
+from src.logger import logging
 
 
 def error_message_details(error, error_details: sys):
@@ -28,9 +27,4 @@ if __name__ == "__main__":
     except Exception as e:
         logging.info("Cannot divide by 0")
         raise CustomException(e, sys)
-    logging.basicConfig(
 
-        filename=logger.LOG_FILE_PATH,
-        format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
-        level=logging.INFO,
-    )
